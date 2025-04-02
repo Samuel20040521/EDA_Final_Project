@@ -1,0 +1,12 @@
+name: verilog_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - matplotlib
+  - pip:
+      - pyverilog
+      - networkx
+      - rich

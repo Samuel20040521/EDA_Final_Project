@@ -1,0 +1,5 @@
+read_verilog clean.v
+hierarchy -check -top top
+proc; opt; flatten; opt
+write_verilog clean_netlist.v
+write_blif clean.blif

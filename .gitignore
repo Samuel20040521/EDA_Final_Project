@@ -1,0 +1,22 @@
+# 編譯出來的模擬執行檔
+sim
+sim_trojan
+
+# waveform 波形檔案
+*.vcd
+
+# Yosys 合成後的中間檔
+*.blif
+*_netlist.v
+
+# 暫存檔與備份檔
+*~
+*.log
+*.out
+*.tmp
+
+# macOS 特有檔案
+.DS_Store
+
+# GTKWave 快取與設定
+gtkwave*.sav
